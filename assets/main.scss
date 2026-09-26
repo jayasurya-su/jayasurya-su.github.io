@@ -1,0 +1,113 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --bg: #0f1419;
+  --surface: #171c24;
+  --text: #e7ecf3;
+  --muted: #9aa6b2;
+  --link: #7db7ff;
+  --link-hover: #a8d0ff;
+  --border: #2a3340;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.65;
+}
+
+.site-header, .site-footer {
+  background: var(--surface);
+  border-color: var(--border);
+}
+
+.site-title, .site-title:visited, .footer-heading, .contact-list, .post-meta {
+  color: var(--text);
+}
+
+.site-title {
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+a, a:visited {
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+.page-content {
+  padding-top: 2rem;
+}
+
+.wrapper {
+  max-width: 720px;
+}
+
+.home > p {
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.home h2 {
+  margin-top: 2.25rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+}
+
+.post-list li {
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.post-list .post-link {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.post-list .post-link:hover {
+  color: var(--link);
+}
+
+.post-meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.post-content h2 {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.35rem;
+  margin-top: 2rem;
+}
+
+pre, code {
+  background: #0b0f14 !important;
+  border-radius: 6px;
+}
+
+.rss-subscribe {
+  display: none;
+}
+
+.site-footer {
+  color: var(--muted);
+}
