@@ -1,4 +1,7 @@
-# TryHackMe: Checkmate
+---
+layout: post
+title: "TryHackMe: Checkmate"
+---
 
 Checkmate is a password-security CTF built around an admin who reused weak, pattern-based passwords across a firewall console, employee portal, social app, and SSH. I treated it as an authentication review: find where secrets were guessable or derivable, then prove impact without spraying everything blindly.
 
