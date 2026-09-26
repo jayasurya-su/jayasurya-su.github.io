@@ -8,7 +8,7 @@ Sysadmin by day. Building toward offensive security.
 
 ## Writeups
 
-- [TryHackMe: Checkmate](/posts/tryhackme-checkmate.html)
+- [TryHackMe: Checkmate](/2026/09/25/tryhackme-checkmate/)
 
 ## Tools
 
