@@ -1,3 +1,8 @@
 title: J4Y4
 description: Writeups and tools — curiosity-driven security learning
 theme: minima
+
+header_pages: []
+
+minima:
+  social_links: []
